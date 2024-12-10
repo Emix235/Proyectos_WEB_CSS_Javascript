@@ -1,0 +1,53 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container 
+{
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+   gap: 10px;
+
+}
+.container .card
+{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 -75px;
+	/*For more : https://bennettfeely.com/clippy/*/
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+}
+
+.container .card:nth-child(2)
+{
+    clip-path: polygon(100% 100%, 50% 0, 0 100%);
+}
+.container .card:nth-child(4)
+{
+     clip-path: polygon(100% 0, 50% 100%, 0 0);
+}
+.container .card  img
+{
+	transition: 0.5s;
+
+}
+.container .card:hover img
+{
+    transform: scale(1.5);
+
+}

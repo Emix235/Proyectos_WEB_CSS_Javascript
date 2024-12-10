@@ -1,0 +1,592 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.ref.dll"
+-define:UNITY_2022_3_29
+-define:UNITY_2022_3
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MamboJamboStudios.UnityAtomsCore.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MamboJamboStudios.UnityAtomsCore.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/AtomBaseVariableAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/BoolAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/BoolPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/Collider2DAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/Collider2DPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/ColliderAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/ColliderPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/ColorAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/ColorPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/FloatAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/FloatPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/GameObjectAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/GameObjectPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/IntAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/IntPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetBoolVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetCollider2DVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetColliderVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetColorVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetFloatVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetGameObjectVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetIntVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetStringVariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetVector2VariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/SetVariableValue/SetVector3VariableValue.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/StringAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/StringPairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/Vector2Action.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/Vector2PairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/Vector3Action.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Actions/Vector3PairAction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/BaseEventReferenceListeners/AtomBaseVariableBaseEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/BaseEventReferenceListeners/VoidBaseEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/BaseEventReferences/AtomBaseVariableBaseEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/BaseEventReferences/VoidBaseEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomBaseCollectionInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomBaseVariableList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomCollectionInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomCollectionReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomListInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/AtomListReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/IWithCollectionEvents.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/SerializableDictionary.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/StringReferenceAtomBaseVariableDictionary.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/SyncCollectionInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Collections/SyncListInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/BoolConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/Collider2DConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/ColliderConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/ColorConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/FloatConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/GameObjectConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/IntConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/StringConstant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/Vector2Constant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Constants/Vector3Constant.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/AtomBaseVariableEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/BoolEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/BoolPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/Collider2DEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/Collider2DPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/ColliderEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/ColliderPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/ColorEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/ColorPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/FloatEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/FloatPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/GameObjectEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/GameObjectPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/IntEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/IntPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/StringEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/StringPairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/Vector2EventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/Vector2PairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/Vector3EventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/Vector3PairEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventInstancers/VoidEventInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/BoolEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/BoolPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/Collider2DEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/Collider2DPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/ColliderEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/ColliderPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/ColorEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/ColorPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/FloatEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/FloatPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/GameObjectEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/GameObjectPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/IntEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/IntPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/StringEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/StringPairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/Vector2EventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/Vector2PairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/Vector3EventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferenceListeners/Vector3PairEventReferenceListener.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/BoolEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/BoolPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/Collider2DEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/Collider2DPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/ColliderEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/ColliderPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/ColorEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/ColorPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/FloatEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/FloatPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/GameObjectEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/GameObjectPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/IntEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/IntPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/StringEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/StringPairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/Vector2EventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/Vector2PairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/Vector3EventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/EventReferences/Vector3PairEventReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/AtomBaseVariableEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/BoolEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/BoolPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/Collider2DEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/Collider2DPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/ColliderEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/ColliderPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/ColorEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/ColorPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/FloatEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/FloatPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/GameObjectEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/GameObjectPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/IntEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/IntPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/StringEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/StringPairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/Vector2Event.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/Vector2PairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/Vector3Event.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/Vector3PairEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Events/VoidEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/BoolBoolFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/Clamp/ClampFloat.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/Clamp/ClampInt.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/Collider2DCollider2DFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/ColliderColliderFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/ColorColorFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/FloatFloatFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/GameObjectGameObjectFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/IntIntFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/StringStringFunction.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/Vector2Vector2Function.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Functions/Vector3Vector3Function.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/MonoBehaviourHelpers/SyncGameObjectToList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/MonoBehaviourHelpers/SyncVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/BoolPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/Collider2DPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/ColliderPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/ColorPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/FloatPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/GameObjectPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/IntPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/StringPair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/Vector2Pair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Pairs/Vector3Pair.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/BoolReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/Collider2DReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/ColliderReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/ColorReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/FloatReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/GameObjectReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/IntReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/StringReference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/Vector2Reference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/References/Vector3Reference.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncBoolVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncCollider2DVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncColliderVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncColorVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncFloatVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncGameObjectVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncIntVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncStringVariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncVector2VariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/SyncVariableInstancerToCollection/SyncVector3VariableInstancerToCollection.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/AtomBaseVariableUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/BoolPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/BoolUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/Collider2DPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/Collider2DUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/ColliderPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/ColliderUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/ColorPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/ColorUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/FloatPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/FloatUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/GameObjectPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/GameObjectUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/IntPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/IntUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/StringPairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/StringUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/Vector2PairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/Vector2UnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/Vector3PairUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/Vector3UnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/UnityEvents/VoidUnityEvent.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/BoolValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/Collider2DValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/ColliderValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/ColorValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/FloatValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/GameObjectValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/IntValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/StringValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/Vector2ValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/ValueLists/Vector3ValueList.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/BoolVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/Collider2DVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/ColliderVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/ColorVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/FloatVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/GameObjectVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/IntVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/StringVariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/Vector2VariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/VariableInstancers/Vector3VariableInstancer.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/BoolVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/Collider2DVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/ColliderVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/ColorVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/FloatVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/GameObjectVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/IntVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/StringVariable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/Vector2Variable.cs"
+"Library/PackageCache/com.mambojambostudios.unity-atoms-base-atoms@4.3.0/Runtime/Variables/Vector3Variable.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/MamboJamboStudios.UnityAtomsBaseAtoms.Runtime.UnityAdditionalFile.txt"

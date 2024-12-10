@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Complete Responsive Portfolio Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div class="container">
+   	<div class="navigation">
+   		<ul>
+   			<li><a href="#banner"   onclick="toggleMenu();">Home</a></li>
+   			<li><a href="#about" onclick="toggleMenu();">About</a></li>
+   			<li><a href="#services" onclick="toggleMenu();">Service</a></li>
+   			<li><a href="#project" onclick="toggleMenu();">Project</a></li>
+   			<li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+   			<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+   		</ul>
+   	</div>
+   	<div class="main">
+   		<div class="topbar">
+   			<a href="#" class="logo">Portfolio</a>
+   			<div class="toggle">
+   				<i class="fa fa-bars" aria-hidden="true"></i>
+   			</div>
+   		</div>
+   		<!--banner -->
+        <section class="banner" id="banner" >
+        	<div class="content" >
+        		<div class="imgBx">
+        			<img src="user.jpg" >
+        		</div>
+        		<h3>Emilio Corona Muñoz</h3>
+        		<p>I´m a Creative Front End Web Developer.</p>
+        		<a href="cv/index.html" class="btn">Download My CV</a>
+        		<ul class="socialMedia">
+        			<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        			<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        			<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        		</ul>
+        	</div>
+        </section>
+
+<!-- About -->
+    <section class="about adjust" id="about" >
+    	<div class="title">
+    		<h2>About Me</h2>
+    	</div>
+    	<div class="content">
+    		<div class="textBox">
+    			<p>When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish).that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.<br><br>
+    			The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable.<br><br>
+    			If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.  
+    			</p>
+    		</div>
+    		<div class="imgBx">
+    			<img src="bg1.jpg">
+    		</div>
+    	</div>
+       </section>
+     <!-- Services -->
+    <section class="services adjust" id="services">
+ 	    <div class="title">
+    		<h2>Our services</h2>
+    		<p>You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. 	
+    		</p>
+    	</div>
+    	<div class="content">
+    		<div class="serviceBox">
+    		<img src="icon1.png">
+    		<h2>Web Design</h2>
+    		<p>You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. 
+    		</p>
+    		</div>
+        <div class="serviceBox">
+    		<img src="icon2.png">
+    		<h2>Web Development</h2>
+    		<p>You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. 
+    		</p>
+    		</div>
+        <div class="serviceBox">
+        <img src="icon3.png">
+        <h2>Android Apps</h2>
+        <p>You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. 
+        </p>
+        </div>
+        <div class="serviceBox">
+        <img src="icon4.png">
+        <h2>Photography</h2>
+        <p>You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. 
+        </p>
+        </div>
+        <div class="serviceBox">
+        <img src="icon5.png">
+        <h2>Content Writing</h2>
+        <p>You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. 
+        </p>
+        </div>
+        <div class="serviceBox">
+        <img src="icon6.png">
+        <h2>Video Editing</h2>
+        <p>You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. 
+        </p>
+        </div>
+      </div>
+      </section>
+      <!-- Projects -->
+      <section class="project adjust" id="project">
+      <div class="title">
+        <h2>Recent Work</h2>
+        <p>You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License.   
+        </p>
+      </div>
+      <div class="content">
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img1.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 01</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img2.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 02</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img3.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 03</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img4.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 04</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img5.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 05</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img6.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 06</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img7.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 07</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img8.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 08</h3>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img9.jpg">
+          </div>
+          <div class="textBx">
+            <h3>Project 09</h3>
+          </div>
+        </div>  
+      </div>
+    </section>
+<!-- testimonials -->
+  <section class="testimonials adjust" id="testimonials">
+    <div class="title">
+        <h2>Testimonials</h2>
+        <p>You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License.   
+        </p>
+      </div>
+      <div class="content">
+      <div class="testimonialsBox">
+        <div class="imgBx">
+          <img src="user1.jpg">
+        </div>
+        <p>In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.</p>
+        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+      </div>
+      <div class="testimonialsBox">
+        <div class="imgBx">
+          <img src="user2.jpg">
+        </div>
+        <p>In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.</p>
+        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+      </div>
+      <div class="testimonialsBox">
+        <div class="imgBx">
+          <img src="user3.jpg">
+        </div>
+        <p>In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.</p>
+        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+      </div>
+  </div>
+  </section>
+  <!-- Contact -->
+  <section class="contact adjust" id="contact">
+    <div class="title">
+        <h2>Let´s Say Hi</h2>
+        <p>You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License.   
+        </p>
+      </div>
+      <div class="contactForm">
+        <div class="row">
+          <input type="text" name="" placeholder="First Name">
+          <input type="text" name="" placeholder="Last Name">
+        </div>
+        <div class="row">
+          <input type="text" name="" placeholder="Email Address">
+          <input type="text" name="" placeholder="Mobile No.">
+        </div>
+        <div class="row2">
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="row2">
+          <input type="submit" value="Send">
+        </div>
+      </div>
+  </section>
+<!-- COPYRIGHT Text-->
+<div class="copyright">
+<p>Copyright 2021 Online Tutorials. All Right Rserved.</p>
+</div>
+
+
+</div>
+</div>
+
+   <script type="text/javascript">
+   	let toggle = document.querySelector('.toggle');
+   	let topbar = document.querySelector('.topbar');
+   	let navigation = document.querySelector('.navigation');
+   	let main = document.querySelector('.main');
+   	toggle.onclick = function(){
+   		toggle.classList.toggle('active');
+   		topbar.classList.toggle('active');
+   		navigation.classList.toggle('active');
+   		main.classList.toggle('active');
+   	}
+    //now, we fix  menu active class issue for mobile
+    function toggleMenu(){
+    let navigation = document.querySelector('.navigation');
+    let main = document.querySelector('.main');
+    navigation.classList.remove('active');
+    main.classList.remove('active');     
+    }
+    
+   </script>
+</body>
+</html>

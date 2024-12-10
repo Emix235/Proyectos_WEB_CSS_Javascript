@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Styling</title>
+  <!-- link font-awesome to web page -->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+
+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+        crossorigin="anonymous" />
+
+  <style>
+
+    form{display: flex; flex-wrap: wrap; justify-content: center; align-items: center}
+
+    label{display: flex; align-items: center; margin: 10px}
+
+    input[type="checkbox"],select{margin-right: 10px}
+
+    /*hide checkbox*/
+    input[type="checkbox"]{display: none;}
+
+    /*custom checkbox*/
+    input[type="checkbox"] + .custom-checkbox::before {
+            display: inline-block; 
+            content: "";
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+            vertical-align: middle;
+            margin-right: 10px;
+            background: #fff;
+        }
+
+    /*style checkbox when checked*/
+    input[type="checkbox"]:checked + .custom-checkbox::before {
+            content: "\f00c"; /* Fontawsome checkmark */
+            color:#4CAF50;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+        }
+
+        input[type="checkbox"] + .custom-checkbox::before {
+            transition: all 0.2s ease-in-out;
+        }
+
+        input[type="checkbox"] + .custom-checkbox:hover::before {
+            border-color: #4CAF50;
+        }
+
+        i{padding: 2px}
+
+input[type="color"] {width: 50px; height: 30px;}
+
+#text{
+
+    width: 80%;
+    min-height: 200px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+
+<div id="app">
+    <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <form>
+      <label for="bold">
+          <input type="checkbox" id="bold" onchange="setStyle()"/>
+          <span class="custom-checkbox"></span>
+          <i class="fa fa-bold"></i>
+      </label>
+
+      <label for="italic">
+            <input type="checkbox" id="italic" onchange="setStyle()"/>
+            <span class="custom-checkbox"></span>
+            <i class="fa fa-italic"></i>
+        </label>
+
+        <label for="underline">
+                <input type="checkbox" id="underline" onchange="setStyle()"/>
+                <span class="custom-checkbox"></span>
+                <i class="fa fa-underline"></i>
+        </label>
+
+        <label for="color">
+                <i class="fa fa-paint-brush"></i>
+                <input type="color" id="color" onchange="setStyle()"/>
+        </label>
+
+        <label for="fontsize">
+                <i class="fa fa-height"></i>
+                <select id="fontsize" onchange="setStyle()">
+                    <option value="10px">10px</option>
+                    <option value="12px">12px</option>
+                    <option value="14px">14px</option>
+                    <option value="16px">16px</option>
+                    <option value="20px">20px</option>
+                    <option value="25px">25px</option>
+                    <option value="30px">30px</option>
+                    <option value="40px">40px</option>
+                </select>
+        </label>
+
+        <label for="font-family">
+                <i class="fa fa-font"></i>
+                <select id="font-family" onchange="setStyle()">
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Tahoma">Tahoma</option>
+                </select>
+        </label>
+
+    </form>
+</div>
+
+<script>
+
+const text = document.getElementById("text");
+
+function setStyle()
+{
+    if(document.getElementById("bold").checked)
+    {
+        text.style.fontWeight = "bold";
+    }
+    else
+    {
+        text.style.fontWeight = "normal";
+    }
+
+    if(document.getElementById("italic").checked)
+    {
+        text.style.fontStyle = "italic";
+    }
+    else
+    {
+        text.style.fontStyle = "normal";
+    }
+
+    if(document.getElementById("underline").checked)
+    {
+        text.style.textDecoration = "underline";
+    }
+    else
+    {
+        text.style.textDecoration = "none";
+    }
+
+    
+    text.style.fontSize = document.getElementById("fontsize").value;
+    text.style.color = document.getElementById("color").value;
+    text.style.fontFamily = document.getElementById("font-family").value;
+}
+
+text.style.fontSize = document.getElementById("fontsize").value;
+
+</script>
+
+
+</body>
+</html>
